@@ -15,6 +15,9 @@
 }
 
 
+
+
+
 body {
 
     padding: 2.5rem 1.5rem;
@@ -83,4 +86,25 @@ color: var(--cyan);
 
 .luxuosos a {
 color: var(--dark-cyan);
+}
+
+
+
+@media(min-width: 920px) {
+body{
+border: 1px solid floralwhite;
+height:100vh ;
+
+}
+
+
+ main{
+    display: flex;
+    max-width: 57.5rem ;
+ }
+
+
+
+
+
 }
